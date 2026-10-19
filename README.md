@@ -25,3 +25,10 @@ git clone https://github.com/cdz-111/chief-weights.git
 
 权重来自 CHIEF（A foundational model for computational pathology），原始发布见
 [JSUNlab/CHIEF](https://github.com/hms-dbmi/CHIEF)。本仓库仅作个人下载备份，版权归原作者。
+
+## 国内镜像
+
+Gitee 同步一份：<https://gitee.com/cdz_yyds/chief-weights>
+
+因 Gitee 社区版单文件上限 50MB 且无免费 LFS，`CHIEF_CTransPath.pth` 在那里被拆成 3 个分片，
+clone 后需先执行 `cd chief && bash merge.sh` 合并再使用。
